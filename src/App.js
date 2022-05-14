@@ -21,37 +21,36 @@ function App() {
             <Home />
           </Route>
           <Route exact path="/login">
-           <Login />
+            <Login />
           </Route>
-          <Route exact path="/signup">
+          {/* <Route exact path="/signup">
             <CreateAccount />
-          </Route>
+          </Route> */}
           <Route exact path="/loginstepone">
-           <LoginStepOne />
+            <LoginStepOne />
           </Route>
           <Route exact path="/loginsteptwo">
-           <LoginStepTwo />
+            <LoginStepTwo />
           </Route>
           <Route exact path="/loginstepthree">
-           <LoginStepThree />
+            <LoginStepThree />
           </Route>
           <Route exact path="/loginstepfour">
             <LoginStepFour />
           </Route>
 
           <Route exact path="/signinstepone">
-           <SigninStepOne />
+            <SigninStepOne />
           </Route>
           <Route exact path="/signinsteptwo">
-           <SigninStepTwo />
+            <SigninStepTwo />
           </Route>
           <Route exact path="/signinstepthree">
-           <SigninStepThree />
+            <SigninStepThree />
           </Route>
           <Route exact path="/signinstepfour">
-          <SigninStepFour />
+            <SigninStepFour />
           </Route>
-         
         </Switch>
       </Router>
     </>
