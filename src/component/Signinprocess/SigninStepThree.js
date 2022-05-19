@@ -3,15 +3,6 @@ import "../css/SigninProcess.css";
 import { Link } from "react-router-dom";
 
 const SigninStepThree = () => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    if (loading) {
-      window.location.reload();
-    } else {
-      console.log("page already loaded");
-    }
-  }, [loading]);
   return (
     <>
       <div class="verification_step_seven_section">
