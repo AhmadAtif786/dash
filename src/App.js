@@ -23,9 +23,9 @@ function App() {
           <Route exact path="/login">
             <Login />
           </Route>
-          {/* <Route exact path="/signup">
+          <Route exact path="/signup">
             <CreateAccount />
-          </Route> */}
+          </Route>
           <Route exact path="/loginstepone">
             <LoginStepOne />
           </Route>
